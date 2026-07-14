@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCM Hotel - HTML Tags Demo</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background-color: #f4f1ea;
+            color: #2b2420;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #6b4226;
+            color: #f4f1ea;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+        header h1 { font-size: 2.2rem; letter-spacing: 1px; }
+        header p { font-style: italic; margin-top: .5rem; }
+        nav {
+            background-color: #2b2420;
+            padding: .8rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        nav a { color: #d97757; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+        section {
+            margin-bottom: 2.5rem;
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,.08);
+        }
+        h2 {
+            color: #6b4226;
+            border-bottom: 2px solid #d97757;
+            padding-bottom: .4rem;
+            margin-bottom: 1rem;
+        }
+        h3 { color: #6b4226; margin: 1rem 0 .5rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        caption { font-weight: bold; margin-bottom: .5rem; }
+        th, td { border: 1px solid #ccc; padding: .6rem; text-align: left; }
+        thead { background-color: #6b4226; color: #fff; }
+        tfoot { font-weight: bold; background-color: #f0ece3; }
+        figure { margin: 1rem 0; text-align: center; }
+        figcaption { font-size: .85rem; color: #555; margin-top: .3rem; }
+        form label { display: block; margin-top: .8rem; font-weight: bold; }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: .5rem;
+            margin-top: .3rem;
+            border: 1px solid #bbb;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        form button {
+            margin-top: 1.2rem;
+            background-color: #d97757;
+            color: #fff;
+            border: none;
+            padding: .7rem 1.4rem;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        form button:hover { background-color: #b85f42; }
+        blockquote {
+            border-left: 4px solid #d97757;
+            padding-left: 1rem;
+            font-style: italic;
+            color: #444;
+            margin: 1rem 0;
+        }
+        details { margin-top: 1rem; background: #f0ece3; padding: .8rem; border-radius: 6px; }
+        summary { font-weight: bold; cursor: pointer; }
+        mark { background-color: #f6d9a0; padding: 0 .2rem; }
+        progress { width: 100%; margin-top: .5rem; }
+        address { font-style: normal; margin-top: 1rem; }
+        footer {
+            background-color: #2b2420;
+            color: #f4f1ea;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        ul, ol { margin-left: 1.5rem; margin-top: .5rem; }
+        code { background: #eee; padding: 0 .3rem; border-radius: 3px; font-family: monospace; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PCM HOTEL</h1>
+        <p>Comfort, Quality and Great Service in the City</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Book Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About PCM Hotel</h2>
+            <figure>
+                <img src="https://placehold.co/700x300/6b4226/f4f1ea?text=PCM+HOTEL" alt="Photo of the PCM Hotel building" width="700" height="300">
+                <figcaption>Main entrance of PCM Hotel</figcaption>
+            </figure>
+            <p>
+                <strong>PCM Hotel</strong> is a modern hotel located in the heart of the city, offering
+                <em>excellent service</em> to both local and international guests. We provide
+                <mark>clean rooms</mark>, delicious food, and a peaceful environment for
+                relaxation or business activities.
+            </p>
+            <blockquote>
+                "A unique hospitality experience is the foundation of PCM Hotel." — General Manager
+            </blockquote>
+            <details>
+                <summary>Brief history of the hotel</summary>
+                <p>PCM Hotel was founded with a mission to provide international-standard
+                service at affordable prices, blending Tanzanian culture with modern hospitality.</p>
+            </details>
+        </section>
+
+        <section id="rooms">
+            <h2>Room Types</h2>
+            <table>
+                <caption>Room Rates per Night (TZS)</caption>
+                <thead>
+                    <tr>
+                        <th>Room Type</th>
+                        <th>Guests</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+           
+                    <tr><td colspan="2">Weekly discount (7+ nights)</td><td>10%</td></tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <h3>In-House Amenities</h3>
+            <ul>
+                <li>Free Wi-Fi</li>
+                <li>Air conditioning in every room</li>
+                <li>TV with international channels</li>
+                <li>24-hour room service</li>
+            </ul>
+            <h3>Outdoor Facilities</h3>
+            <ol>
+                <li>Swimming pool</li>
+                <li>Gym and Spa</li>
+                <li>Free parking</li>
+                <li>Airport transfer</li>
+            </ol>
+            <p>Customer satisfaction rate:
+                <progress value="92" max="100">92%</progress> 92%
+            </p>
+        </section>
+
+        <section id="booking">
+            <h2>Make a Booking</h2>
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+255 6XX XXX XXX">
+
+                <label for="checkin">Check-in Date</label>
+                <input type="date" id="checkin" name="checkin" required>
+
+                <label for="checkout">Check-out Date</label>
+                <input type="date" id="checkout" name="checkout" required>
+
+                <label for="room">Choose Room Type</label>
+                <select id="room" name="room">
+                    <option value="standard">Standard Room</option>
+                    <option value="deluxe">Deluxe</option>
+                    <option value="vip">VIP Suite</option>
+                </select>
+
+                <label for="guests">Number of Guests</label>
+                <input type="number" id="guests" name="guests" min="1" max="10" value="1">
+
+                <label for="message">Additional Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Special requests..."></textarea>
+
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I agree to the <a href="#contact">terms and conditions</a>
+                </label>
+
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <address>
+                PCM Hotel, Uhuru Road<br>
+                Dar es Salaam, Tanzania<br>
+                Phone: <a href="tel:+255700000000">+255 700 000 000</a><br>
+                Email: <a href="mailto:info@pcmhotel.co.tz">info@pcmhotel.co.tz</a>
+            </address>
+            <p>The <code>&lt;address&gt;</code> tag is used to display official contact information.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PCM Hotel. All rights reserved.</p>
+        <p><small>Built by Pascal for the purpose of learning HTML.</small></p>
+    </footer>
+
+</body>
+</html>
