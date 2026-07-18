@@ -1,0 +1,7 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background-color: #f4f1ea;
+            color: #2b2420;
+            line-height: 1.6;
+        }
