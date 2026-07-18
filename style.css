@@ -6,3 +6,9 @@ body {
             color: #2b2420;
             line-height: 1.6;
         }
+header {
+            background-color: #b38a6e;
+            color: #f4f1ea;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
