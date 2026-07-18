@@ -23,3 +23,14 @@ header {
             margin-top: .5rem; 
             color: rgb(6, 10, 9);
         }
+nav       {
+            background-color: #f7e9e1;
+            background: linear-gradient(rgb(110, 236, 110),orchid);
+            border-radius: 5px;
+            width: 100%;
+            padding: .8rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
