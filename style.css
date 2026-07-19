@@ -40,3 +40,7 @@ hr        {
             background-color: crimson;
             margin-top: 10px;
         }
+        img{
+            border: 2px solid black;
+            border-radius: 50%;
+        }
