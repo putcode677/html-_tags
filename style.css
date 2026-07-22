@@ -53,3 +53,13 @@ nav {
     justify-content: center;
     gap: 2rem;
 }
+nav a {
+    color: var(--parchment);
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.25s ease;
+}
