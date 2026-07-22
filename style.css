@@ -40,7 +40,16 @@ hr        {
             background-color: crimson;
             margin-top: 10px;
         }
-        img{
+img       {
             border: 2px solid black;
             border-radius: 50%;
         }
+nav {
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid rgba(200, 162, 90, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
