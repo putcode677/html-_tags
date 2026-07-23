@@ -62,4 +62,6 @@ nav a {
     position: relative;
     padding-bottom: 4px;
     transition: color 0.25s ease;
+}nav a:hover {
+    color: blue;
 }
