@@ -7,8 +7,9 @@ body {
             line-height: 1.6;
         }
 header {
-            background-color: #b38a6e;
-            color: #f4f1ea;
+    background-color: rgb(212, 201, 151);
+  
+            color: #080808;
             padding: 2rem 1.5rem;
             text-align: center;
         }
@@ -16,7 +17,8 @@ header {
             font-size: 2.2rem; 
             letter-spacing: 5px;
             font-size: 50px;
-            color:rgb(75, 6, 29);
+            color:rgb(10, 1, 1);
+            
          }
         header p { 
             font-style: italic; 
@@ -76,4 +78,28 @@ section {
     position: relative;
     padding-bottom: 0.8rem;
     margin-bottom: 1.8rem;
+}
+section h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background: var(--gold);
+}
+section h3 {
+    font-size: 1.25rem;
+    color: var(--navy);
+    margin-top: 1.8rem;
+}
+.card-one{
+    background-color: rgb(46, 175, 175);
+    border: 1px solid black;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
 }
