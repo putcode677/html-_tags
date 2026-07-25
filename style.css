@@ -101,7 +101,7 @@ section h3 {
   border-radius: 10px;
   background-color: #cfd5e6;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 8%;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 90%;
@@ -110,4 +110,12 @@ section h3 {
   height: auto;
 
 }
+blockquote{
+    color: cadetblue;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+
 
