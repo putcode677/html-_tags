@@ -94,12 +94,13 @@ section h3 {
     color: var(--navy);
     margin-top: 1.8rem;
 }
-.card-one{
-    background-color: rgb(46, 175, 175);
-    border: 1px solid black;
-    display: flex;
+#our-services{
     
-    align-items: center;
-    justify-content: center;
-    
+  padding: 2em;
+  border: 1px solid rgb(91, 119, 158);
+  border-radius: 10px;
+  background-color: #cfd5e6;
+  text-align: center;
+
 }
+
