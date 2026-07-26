@@ -128,7 +128,13 @@ table {
     margin-top: 1.5rem;
     font-size: 0.95rem;
 }
-
+caption {
+    caption-side: top;
+    font-size: 1.05rem;
+    color:rgb(126, 11, 11);
+    margin-bottom: 5px;
+    text-align: left;
+}
 
 
 
