@@ -101,20 +101,26 @@ section h3 {
   border-radius: 10px;
   background-color: #cfd5e6;
   text-align: center;
-  margin-left: 8%;
+ 
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   height: auto;
 
 }
-blockquote{
-    color: cadetblue;
-    text-align: center;
-    padding: 10px;
+blockquote {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
+    font-size: 1.3rem;
+    color: var(--navy);
+    text-align: center;
+    border-top: 1px solid rgba(146, 101, 17, 0.4);
+    border-bottom: 1px solid rgba(170, 116, 15, 0.4);
 }
 
 
