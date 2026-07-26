@@ -135,6 +135,16 @@ caption {
     margin-bottom: 5px;
     text-align: left;
 }
+thead th {
+    background: blanchedalmond;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 0.9rem 1rem;
+    text-align: left;
+}
 
 
 
