@@ -136,8 +136,8 @@ caption {
     text-align: left;
 }
 thead th {
-    background: blanchedalmond;
-    color: blueviolet;
+    background: rgb(177, 109, 8);
+    color: rgb(237, 232, 243);
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-weight: 500;
@@ -147,8 +147,8 @@ thead th {
 }
 table td {
     padding: 0.9rem 1rem;
-    border-bottom: 1px solid #e4dcc8;
-        background: blanchedalmond;
+    border-bottom: 1px solid #6b500a;
+        background: rgb(226, 218, 207);
 
 }
 
