@@ -145,6 +145,12 @@ thead th {
     padding: 0.9rem 1rem;
     text-align: left;
 }
+table td {
+    padding: 0.9rem 1rem;
+    border-bottom: 1px solid #e4dcc8;
+        background: blanchedalmond;
+
+}
 
 
 
