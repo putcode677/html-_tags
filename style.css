@@ -151,6 +151,18 @@ table td {
         background: rgb(226, 218, 207);
 
 }
+table tr:nth-child(even) td {
+    background: rgba(200, 162, 90, 0.06);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.8rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.6rem 1.5rem;
+}
+
 
 
 
