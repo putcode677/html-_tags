@@ -209,4 +209,15 @@ progress {
     letter-spacing: 0.1em;
     margin-bottom: 0.4rem;
 }
+#booking textarea {
+    width: 100%;
+    padding: 0.7rem 0.9rem;
+    background: var(--parchment);
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    font-family: 'Jost', sans-serif;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+}
+
 
