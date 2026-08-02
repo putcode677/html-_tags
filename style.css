@@ -217,7 +217,24 @@ progress {
     border-radius: var(--radius);
     font-family: 'Jost', sans-serif;
     font-size: 0.95rem;
-    color: var(--text-dark);
+    color:blueviolet;
+}
+#booking button {
+    margin-top: 0.5rem;
+    padding: 0.9rem 2.2rem;
+    background: 5px;
+    color:chocolate;
+    border: none;
+    border-radius: 8%;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.25s ease;
 }
 
-
+#booking button:hover {
+    background: var(--gold-light);
+}
