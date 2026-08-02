@@ -236,5 +236,9 @@ progress {
 }
 
 #booking button:hover {
-    background: var(--gold-light);
+    background: green;
+    color: #f5efef;
+}
+#contact {
+    text-align: center;
 }
