@@ -247,3 +247,8 @@ address {
     color:rgb(2, 2, 10);
     line-height: 2;
 }
+address a {
+    color: blue;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
