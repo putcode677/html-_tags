@@ -242,3 +242,8 @@ progress {
 #contact {
     text-align: center;
 }
+address {
+    font-style: normal;
+    color:rgb(2, 2, 10);
+    line-height: 2;
+}
