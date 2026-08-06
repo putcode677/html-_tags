@@ -263,4 +263,18 @@ footer {
     font-size: 0.8rem;
     letter-spacing: 0.05em;
 }
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 600px) {
+    nav {
+        gap: 1rem 1.5rem;
+    }
+
+    header figure {
+        width: 220px;
+    }
+
+    ul {
+        grid-template-columns: 1fr;
+    }
+}
 
