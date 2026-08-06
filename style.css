@@ -255,3 +255,12 @@ address a {
 address a:hover {
     color:blue;;
 }
+footer {
+    background: rgb(251, 251, 64);
+    color:rgb(4, 0, 0);
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+}
+
